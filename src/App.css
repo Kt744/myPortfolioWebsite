@@ -1,0 +1,133 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.App {
+  width: 100vw;
+  height: 500vh;
+}
+.Navbar {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.About {
+  width: 100vw;
+  height: 80vh;
+}
+.image {
+  width: 100vw;
+  height: 70vh;
+  background-color: rgb(94, 85, 85);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  width: 10vw;
+  height: 20vh;
+  border-radius: 100%;
+  border: 3px solid white;
+}
+.name {
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(241, 230, 230);
+}
+.name-headline {
+  color: rgb(241, 230, 230);
+  font-size: 18px;
+}
+.description {
+  width: 60vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  width: 20vw;
+  height: 6vh;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.Skills {
+  width: 100vw;
+  height: 80vh;
+}
+.skillAimage img {
+  width: 7vw;
+  height: 14vh;
+}
+.skillsection1 {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+}
+.skillsection2 {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  gap: 10vh;
+}
+.skillA {
+  width: 20vw;
+  height: 20vh;
+}
+.skillB {
+  width: 20vw;
+  height: 20vh;
+}
+.skillC {
+  width: 20vw;
+  height: 20vh;
+}
+.skillD {
+  width: 20vw;
+  height: 20vh;
+}
+.Education-box1 {
+  display: flex;
+  justify-content: space-around;
+}
+.Education-box2 {
+  display: flex;
+  justify-content: space-around;
+}
+.Education1 {
+  width: 20vw;
+  height: 20vh;
+  background-color: red;
+}
+.Education2 {
+  width: 20vw;
+  height: 20vh;
+  background-color: green;
+}
+.Education3 {
+  width: 20vw;
+  height: 20vh;
+  background-color: blue;
+}
+.Education4 {
+  width: 20vw;
+  height: 20vh;
+  background-color: yellow;
+}
+.Education-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5vh;
+}
